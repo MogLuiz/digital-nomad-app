@@ -1,10 +1,10 @@
-import { Box } from "@/src/components/Box";
+import { Screen } from "@/src/components/Screen";
 import { Text } from "react-native";
 
 export default function HomeScreen() {
   return (
-    <Box >
+    <Screen>
       <Text>Home Screen</Text>
-    </Box>
+    </Screen>
   );
 }
