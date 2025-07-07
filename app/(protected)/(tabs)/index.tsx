@@ -1,9 +1,10 @@
-import { Text, View } from "react-native";
+import { Box } from "@/src/components/Box";
+import { Text } from "react-native";
 
 export default function HomeScreen() {
   return (
-    <View>
+    <Box >
       <Text>Home Screen</Text>
-    </View>
+    </Box>
   );
 }
